@@ -12,11 +12,7 @@ export default function HomePage() {
             <Container>
                 <Row>
                     <Col lg="6">
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
+                      
                     <Carousel interval={5000}>
       <Carousel.Item>
       <h1 >Computer Vision </h1>
