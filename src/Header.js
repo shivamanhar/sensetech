@@ -1,6 +1,8 @@
 import React, { useEffect , useState} from 'react'
 import { Button, Container, Navbar,Nav,NavDropdown,Row, Col } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Outlet } from 'react-router-dom';
+import Footer from './Footer';
 import logo from './image/logo.png'
 
 
@@ -53,7 +55,8 @@ function Header() {
     </Navbar>
             </Container>
         </header>
-        
+        <Outlet/>
+        <Footer/>
     </>
   )
 }
